@@ -3,22 +3,61 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class MyWorld here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (yu) 
+ * @version (nov 23)
  */
-public class MyWorld extends World
+public class MyWorld extends World 
 {
-
+    public int score = 0;
+    Label scoreLabel;
     /**
      * Constructor for objects of class MyWorld.
-     * 
      */
+
     public MyWorld()
-    {    
+    {
+
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1);
-        Sheep sheep = new Sheep();
-        addObject(sheep, 300, 300);
-    
+        super(600, 400, 1); 
+
+        // Create the elepahnt object.
+        Elephant elephant = new Elephant();
+        addObject(elephant, 300, 300);
+
+        // Create the label
+        /** 
+         * First parameter is string.
+         * Second is size of the font.
+         */
+        Label nameLabel = new Label("Bumbaclat", 50);
+        addObject(nameLabel, 300, 100);
+
+        // Score throughtout game.
+        scoreLabel = new Label(0, 80);
+        addObject(scoreLabel, 50, 50);
+
+        // Create the banana.
+        createBanana();
+    }
+
+    /**
+     * increase score
+     */
+    public void increaseScore()
+    {
+        score++;
+        scoreLabel.setValue(score);
+    }
+
+    /**
+     * Create a new banana at random location at top of the screen 
+     */
+    public void createBanana()
+    {
+        Banana banana = new Banana();
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(banana, x, y);
     }
 }
+
