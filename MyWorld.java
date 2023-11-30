@@ -29,7 +29,7 @@ public class MyWorld extends World
          * First parameter is string.
          * Second is size of the font.
          */
-        Label nameLabel = new Label("Bumbaclat", 50);
+        Label nameLabel = new Label("chubby bunny", 50);
         addObject(nameLabel, 300, 100);
 
         // Score throughtout game.
