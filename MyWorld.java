@@ -25,12 +25,8 @@ public class MyWorld extends World
         addObject(elephant, 300, 300);
 
         // Create the label
-        /** 
-         * First parameter is string.
-         * Second is size of the font.
-         */
-        Label nameLabel = new Label("chubby bunny", 50);
-        addObject(nameLabel, 300, 100);
+        
+        //First parameter is string, Second is size of the font.
 
         // Score throughtout game.
         scoreLabel = new Label(0, 80);

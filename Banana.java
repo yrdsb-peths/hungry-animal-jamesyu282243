@@ -23,6 +23,7 @@ public class Banana extends Actor
         {
             world.gameOver();
             world.removeObject(this);
+            
         }
     }
 }
