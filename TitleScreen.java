@@ -58,5 +58,17 @@ public class TitleScreen extends World
         addObject(label2,237,232);
         label.setLocation(271,351);
         label2.setLocation(315,263);
+        elephant.setLocation(482,81);
+        label2.setLocation(327,302);
+        label.setLocation(354,351);
+        label.setLocation(234,333);
+        Label label3 = new Label("Press <space> to Start", 30);
+        addObject(label3,234,333);
+        label.setLocation(398,362);
+        label.setLocation(393,362);
+        removeObject(label);
+        label3.setLocation(377,355);
+        label3.setLocation(377,354);
+        label3.setLocation(356,351);
     }
 }

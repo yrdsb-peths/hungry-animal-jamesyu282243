@@ -10,6 +10,7 @@ public class MyWorld extends World
 {
     public int score = 0;
     Label scoreLabel;
+    int level = 1;
     /**
      * Constructor for objects of class MyWorld.
      */
@@ -44,15 +45,20 @@ public class MyWorld extends World
         Label gameOverLabel = new Label("Gamer Over", 100);
         addObject(gameOverLabel, 300, 200);
     }
-        
-    /**
+    
+    /** 
      * increase score
      */
     public void increaseScore()
     {
         score++;
         scoreLabel.setValue(score);
-    }
+        
+        if(score % 5 == 0)
+        {
+            level += 1;
+        }
+    } 
 
     /**
      * Create a new banana at random location at top of the screen 
@@ -60,6 +66,7 @@ public class MyWorld extends World
     public void createBanana()
     {
         Banana banana = new Banana();
+        banana.setSpeed(level);
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(banana, x, y);
