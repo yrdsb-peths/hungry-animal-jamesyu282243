@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Banana
-comment0.text=\n\ food\ for\ elephant.\n\ \n\ @author\ (yu)\ \n\ @version\ (nov\ 23)\n
+comment0.text=\r\n\ food\ for\ elephant.\r\n\ \r\n\ @author\ (yu)\ \r\n\ @version\ (nov\ 23)\r\n
 comment1.params=
 comment1.target=void\ act()
 comment2.params=spd
