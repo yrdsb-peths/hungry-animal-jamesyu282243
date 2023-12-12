@@ -35,6 +35,8 @@ public class MyWorld extends World
 
         // Create the banana.
         createBanana();
+        // Create the apple.
+        createApple();
     }
     
     /**
@@ -70,6 +72,17 @@ public class MyWorld extends World
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(banana, x, y);
+    }
+    /**
+     * Create a new apple at random location at top of the screen 
+     */
+    public void createApple()
+    {
+        Apple apple = new Apple();
+        apple.setSpeed(level);
+        int x = Greenfoot.getRandomNumber(600);
+        int y = 0;
+        addObject(apple, x, y);
     }
 }
 
