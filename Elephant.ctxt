@@ -1,17 +1,17 @@
 #BlueJ class context
 comment0.target=Elephant
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Elephant\ here.\r\n\ \r\n\ @author\ (James\ yu)\ \r\n\ @version\ (nov\ 23)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Elephant\ here.\n\ \n\ @author\ (James\ yu)\ \n\ @version\ (nov\ 23)\n
 comment1.params=
 comment1.target=Elephant()
-comment1.text=\r\n\ Constructor\ -\ the\ code\ that\ gets\ run\ one\ time\ when\ object\ is\ created\r\n
+comment1.text=\n\ Constructor\ -\ the\ code\ that\ gets\ run\ one\ time\ when\ object\ is\ created\n
 comment2.params=
 comment2.target=void\ animateElephant()
 comment3.params=
 comment3.target=void\ act()
 comment4.params=
 comment4.target=void\ eat()
-comment4.text=\ \r\n\ Eat\ banana\ or\ apple\ and\ spawn\ new\ banana\ if\ a\ banana\ is\ eaten.\r\n
+comment4.text=\ \n\ Eat\ banana\ or\ apple\ and\ spawn\ new\ banana\ if\ a\ banana\ is\ eaten.\n
 comment5.params=
 comment5.target=void\ eatApple()
-comment5.text=\ \r\n\ Eat\ apple\ and\ spawn\ new\ banana\ if\ a\ banana\ is\ eaten.\r\n
+comment5.text=\ \n\ Eat\ apple\ and\ spawn\ new\ banana\ if\ a\ banana\ is\ eaten.\n
 numComments=6
